@@ -102,7 +102,7 @@ const MainScreen = () => {
   useEffect(() => {
     const fetchData = async () => {
       try{
-        const response = await axios.get(`http://192.168.29.139:5000/api/sessions/${sessionId}`);
+        const response = await axios.get(`http://localhost:5000/api/sessions/${sessionId}`);
         setSessionData(response.data);
       }
       catch (error){
