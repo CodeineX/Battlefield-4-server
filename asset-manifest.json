@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/battlefield4/static/css/main.34f8f4b0.css",
+    "main.js": "/battlefield4/static/js/main.c5916998.js",
+    "static/js/453.1e517bba.chunk.js": "/battlefield4/static/js/453.1e517bba.chunk.js",
+    "static/media/menu_background.png": "/battlefield4/static/media/menu_background.cf5ce3ac0a2a66b6bff2.png",
+    "static/media/rajdhani-devanagari-400-normal.woff2": "/battlefield4/static/media/rajdhani-devanagari-400-normal.6c9e66e639fb808aad84.woff2",
+    "static/media/rajdhani-devanagari-400-normal.woff": "/battlefield4/static/media/rajdhani-devanagari-400-normal.8b68e16985b8ddab3239.woff",
+    "static/media/map3.png": "/battlefield4/static/media/map3.ddb88ed854acc9e0ca56.png",
+    "static/media/map4.png": "/battlefield4/static/media/map4.d9a9bf365c7df827f025.png",
+    "static/media/map2.png": "/battlefield4/static/media/map2.9e2caff7afe01c34d728.png",
+    "static/media/map5.png": "/battlefield4/static/media/map5.bd6bb3f45f56c47ff152.png",
+    "static/media/map1.png": "/battlefield4/static/media/map1.49fcc17204b52330a5ae.png",
+    "static/media/rajdhani-latin-400-normal.woff2": "/battlefield4/static/media/rajdhani-latin-400-normal.7a7983e943008b42789d.woff2",
+    "static/media/rajdhani-latin-ext-400-normal.woff2": "/battlefield4/static/media/rajdhani-latin-ext-400-normal.d920ea8ee9c011bae86d.woff2",
+    "static/media/rajdhani-latin-400-normal.woff": "/battlefield4/static/media/rajdhani-latin-400-normal.f91233009b8248d846f5.woff",
+    "static/media/rajdhani-latin-ext-400-normal.woff": "/battlefield4/static/media/rajdhani-latin-ext-400-normal.e2bf801e950e34d94964.woff",
+    "index.html": "/battlefield4/index.html",
+    "main.34f8f4b0.css.map": "/battlefield4/static/css/main.34f8f4b0.css.map",
+    "main.c5916998.js.map": "/battlefield4/static/js/main.c5916998.js.map",
+    "453.1e517bba.chunk.js.map": "/battlefield4/static/js/453.1e517bba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34f8f4b0.css",
+    "static/js/main.c5916998.js"
+  ]
+}
