@@ -1,0 +1,19 @@
+.right-sidebar {
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 300px; /* Adjust width as needed */
+    background-color: transparent;
+    transition: transform 0.2s ease-in-out; /* Transition for expansion */
+    transform: translateX(80%); /* Initially hidden off-screen */
+    opacity: 1; /* Initially hidden with opacity 0 */
+  }
+  
+  .right-sidebar.expanded {
+    transform: translateX(0); /* Move to the right side on hover */
+    background-color: black;
+    opacity: 0.5; /* Set opacity to 50% on hover */
+  }
+  
