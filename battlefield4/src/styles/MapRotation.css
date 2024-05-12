@@ -1,6 +1,6 @@
 .image-grid {
     display: grid;
-    margin-top: 10px;
+    margin: 10px;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px; /* Adjust gap between cards */
   }
@@ -15,7 +15,7 @@
   .image-card img {
     width: 300px;
     height: 55px;
-    object-fit: fill;
+    object-fit: cover;
     position: absolute;
     top: 0;
     transition: top 0.2s ease-in-out; /* Transition for hover effect */

@@ -12,38 +12,35 @@ Installation:
 
     Clone the Repository:
 
-    git clone https://github.com/your-username/[your-repository-name].git
+    git clone https://github.com/CodeineX/Battlefield-4-server.git
 
 Install Dependencies:
 
 Navigate to the project directory:
 
-    cd [your-repository-name]
+    cd Battlefield-4-server
 
-Install the required dependencies using npm:
+Install the required dependencies using npm: 
 
     npm install
 
 Development Server:
 
-    Start the Development Server:
+Start the Development Server:
 
-    Run the following command to start a local development server:
+Run the following command to start a local development server:
 
+    cd backend
+    node server.js
+
+In a new terminal, 
+
+    cd battlefield4
     npm start
 
     (If you're using yarn, the command might be yarn start)
 
-    This will typically start the server on http://localhost:3000 (or a different port depending on your configuration). You can then open this URL in your web browser to view the application.
-
-Node Modules:
-
-The specific node modules required for your application will depend on the technologies used. However, a common set of modules might include:
-
-    react
-    express
-    axios
-    <any additional fonts/iconss>
+This will typically start the server on [this](http://localhost:3000/battlefield4) (or a different port depending on your configuration). You can then open this URL in your web browser to view the application.
 
      
 Additional Notes:

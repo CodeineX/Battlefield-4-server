@@ -16,6 +16,7 @@ const RightSidebar = () => {
       onMouseLeave={handleMouseLeave}
     >
       <img src={online} alt='online' />
+      <br />
       <img src={offline} alt='offline' />
       </div>
   );
