@@ -1,4 +1,4 @@
-End-to-End build of the Server Info Pgae in Battlefield 4
+End-to-End build of the Server Info Page in Battlefield 4
 
 Getting Started with Server Info Pgae in Battlefield 4
  
