@@ -1,9 +1,13 @@
+require('dotenv').config();
+
+const path = require('path');
+
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors'); // (Optional)
 
 // Replace with your MongoDB connection string (from MongoDB Atlas)
-const mongoURI = 'mongodb+srv://ayushramteke2201:yE1d5iy5lBjXTQ54@cluster0.dk5psq1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+const mongoURI = process.env.MONGO_URL;
 
 const app = express();
 const port = process.env.PORT || 5000; // Use environment variable or default port
@@ -60,6 +64,10 @@ app.get('/api/sessions/:sessionId', async (req, res) => {
     res.status(500).json({ message: 'Error retrieving session' });
   }
 });
+
+const _dirname=path.dirname("");
+const buildpath = path.join(_dirname, "./battlefield4/build");
+app.use(express.static(buildpath));
 
 // Start the server
 app.listen(port, () => console.log(`Server listening on port ${port}`));

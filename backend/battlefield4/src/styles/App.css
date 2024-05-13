@@ -1,0 +1,9 @@
+.app {
+  display: flex;
+  background-image: linear-gradient(rgba(0, 0, 0, 1) 0%, transparent 100%), url('../assets/menu_background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  font-family: "Rajdhani"; /* Assuming you have the font loaded */
+  color: white;
+}
